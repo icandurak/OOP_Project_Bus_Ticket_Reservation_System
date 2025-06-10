@@ -1,0 +1,19 @@
+﻿
+
+9. Otobüs Bilet Rezervasyon Sistemi
+
+Amaç: Otobüs seferleri ve koltuk rezervasyonu yapılabilen sistem.
+
+OOP Kavramları:
+•	Kalıtım: Sefer → Sehirlerarasi, Sehirici
+•	Kompozisyon: Otobus içinde Koltuk[]
+•	Arayüz: IRezervasyon
+
+Modüller:
+•	Sefer Oluşturma
+•	Koltuk Seçimi
+•	Bilet Yazdırma
+
+Geliştirme İpuçları:
+•	Koltuklar için bool[] veya Koltuk[] yapısı kullanılabilir.
+•	Console.SetCursorPosition() ile görsel koltuk yerleşimi yapılabilir.
